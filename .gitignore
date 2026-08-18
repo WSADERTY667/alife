@@ -1,40 +1,9 @@
-```
-# Compiled Python files
-*.pyc
 __pycache__/
-
-# Dependencies
+*.pyc
 .venv/
 venv/
 .env
-.env.local
-*.env.*
-
-# Logs and temporary files
 *.log
-*.tmp
-
-# Editors
-.vscode/
-.idea/
-
-# Coverage reports
-.coverage
-coverage/
-htmlcov/
-
-# Pytest cache
-.pytest_cache/
-
-# MyPy cache
-.mypy_cache/
-
-# Distribution artifacts
-dist/
-build/
-*.egg-info/
-
-# System files
-.DS_Store
-Thumbs.db
-```
+saves/
+*.npz
+*.sqlite3
