@@ -1,9 +1,40 @@
-__pycache__/
+```
+# Compiled Python files
 *.pyc
+__pycache__/
+
+# Dependencies
 .venv/
 venv/
 .env
+.env.local
+*.env.*
+
+# Logs and temporary files
 *.log
-saves/
-*.npz
-*.sqlite3
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+
+# Coverage reports
+.coverage
+coverage/
+htmlcov/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Distribution artifacts
+dist/
+build/
+*.egg-info/
+
+# System files
+.DS_Store
+Thumbs.db
+```
